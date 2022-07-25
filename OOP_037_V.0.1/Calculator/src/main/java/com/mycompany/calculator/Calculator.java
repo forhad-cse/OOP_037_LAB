@@ -52,7 +52,7 @@ public class Calculator {
 
             int n = s.nextInt();
 
-            while (n != 23) {
+            if (n != 23) {
 
                 System.out.print("Enter total number of input : ");
 
@@ -156,4 +156,5 @@ public class Calculator {
         }
 
     }
+    
 }
